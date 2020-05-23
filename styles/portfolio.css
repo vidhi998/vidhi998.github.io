@@ -26,6 +26,9 @@ body {
     .aj-navbar {
   height: auto;
   }
+  .navbar-toggle{
+        padding: 12px 10px !important;
+  }
 }
 
 .aj-container-fluid {
@@ -132,12 +135,10 @@ body {
       padding-left: 0;
       padding-right: 0;
    }
-   .vp-1 .carousel .carousel-inner .item .img {
-      display: inline-block;
-      margin: 10px 95px; }
+
    .vp-1 .carousel .carousel-control.right {
         right: auto;
-        left: 58%;
+        left: 55%;
         bottom: -20px; }
    .vp-1 .carousel .carousel-control.left {
         left: 40%;
@@ -153,6 +154,9 @@ body {
    }
    .vp-1 {
   min-height: 500px; }
+  .carousel-inner {
+    text-align: center;
+}
 }
 
 

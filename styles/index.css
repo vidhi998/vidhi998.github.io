@@ -53,8 +53,9 @@ body {
     z-index: 2;
     left: 0;
     bottom: 0;
-    width: 660px;
-    height: 483px;
+    //width: 660px;
+    width:50%;
+    height: 75%;
     padding: 75px 0 0 120px;
     color: #ffffff; }
     .vp-1 .vp-1-div h1.title {
@@ -69,7 +70,12 @@ body {
     position: absolute;
     right: 0;
     top: -100;
-    z-index: 1; }
+    z-index: 1;
+    width:66%;}
+   .vp-1 .img-div img {
+     height: fit-content;
+         width: 100%;
+     }
 
 .vp-2 {
   min-height: 800px;

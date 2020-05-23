@@ -17,10 +17,19 @@ body {
     padding-top: 34px;
     padding-left: 30px; }
 
-.aj-container-fluid {
-  padding-left: 10%;
-  padding-right: 10%; }
-
+@media(max-width:767px){
+    .aj-navbar .navbar-brand {
+      margin-top: 8px;
+    margin-left: 15px !important;
+    padding:0 !important;
+    }
+    .aj-navbar {
+  height: auto;
+  }
+  .navbar-toggle{
+        padding: 12px 10px !important;
+  }
+}
 .vp-footer {
   background-color: #f8f8f8;
   min-height: 400px;
@@ -42,7 +51,8 @@ body {
   justify-content: center;
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+   text-align:center;}
 
 
 .vp-1 {
@@ -73,7 +83,22 @@ body {
      height: fit-content;
          width: inherit;
      }
-
+@media(max-width:767px){
+    .vp-1 {
+    min-height: 280px;
+    }
+    .vp-1 .vp-1-div {
+    width: 100%;
+    padding: 10% 40% 10% 10%;
+    height: auto;
+    }
+    .vp-1 .vp-1-div h1.title {
+    font-size: 24px;
+    }
+    .vp-1 .img-div img {
+    height: auto;
+    }
+}
 
 .vp-2{
     }
@@ -95,6 +120,19 @@ body {
     opacity: 0.5;
   }
 
+@media(max-width:767px){
+    .vp-2 .section-desc {
+    font-size: 14px;
+    padding: 0 10%;
+    }
+    .vp-2 .bg-grey-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .vp-2 .section-heading {
+    font-size: 24px;
+    }
+}
 .vp-3 {
   position: relative;
   min-height: 825px;
@@ -165,3 +203,47 @@ body {
        width:100%;
        height: fit-content;
        }
+/*Responsive div CSS*/
+@media(max-width:767px){
+    .gallery-div{
+    display:none;
+  }
+  .res-div{
+    display:block !important;
+  }
+}
+.res-div{
+    display:none;
+  }
+  .vp-3-res{
+    margin: 0 0 20px;
+  }
+  .vp-3-div-res{
+    background-color: #2b42a1;
+    padding: 10%;
+    color: #ffffff;
+  }
+  .vp-3-div-res h1{
+    font-size: 27px;
+  }
+  .vp-3-res .img-div-res{
+    padding:0;
+  }
+
+  .vp-4-div-res{
+    padding: 10%;
+  }
+  .vp-4-div-res h1.title {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  .vp-4-div-res p.desc {
+      margin-top: 10%;
+      font-size: 14px;
+       opacity: 0.6;
+  }
+  .vp-4-res .img-div-res{
+    padding:0;
+  }
+
+

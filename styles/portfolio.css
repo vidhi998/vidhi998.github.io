@@ -1,0 +1,189 @@
+body {
+  padding: 0;
+  margin: auto;
+  max-width:1440px;
+   }
+
+.aj-navbar {
+  height: 100px;
+  background-color: transparent;
+  border-bottom: 0;
+  margin-bottom: 0;
+  z-index: 4; }
+  .aj-navbar .navbar-brand {
+    margin-top: 10px;
+    margin-left: 20% !important; }
+  .aj-navbar .aj-nav li a {
+    background-color: transparent !important;
+    padding-top: 34px;
+    padding-left: 30px; }
+
+.aj-container-fluid {
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.vp-footer {
+  background-color: #f8f8f8;
+  min-height: 400px;
+  padding-top: 120px; }
+  .vp-footer .brand-name {
+    color: #2b42a1;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: bold; }
+  .vp-footer p i.glyphicon {
+    color: #2b42a1;
+    margin-right: 5px; }
+
+.copyright {
+  background: #2b42a1;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold; }
+
+.vp-1 {
+  position: relative;
+  min-height: 700px; }
+  .vp-1 .vp-1-div {
+    color: #000;
+     width: 45%; }
+    .vp-1 .vp-1-div h1.title {
+      font-size: 54px;
+      font-weight: bold;
+      margin-top: 0; }
+    .vp-1 .vp-1-div p.desc {
+      margin-top: 10%;
+     margin-right: 10%;
+      font-size: 20px; }
+  .vp-1 .img-div {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: -100;
+    z-index: 1;
+    margin-right: 0;
+    width:610px;}
+    .vp-1 .inherit-img{
+        width:inherit;
+        height: fit-content;
+    }
+  .vp-1 .carousel {
+   width: 70%;
+    z-index: 4;
+    margin-left: -20px; }
+    .vp-1 .carousel .carousel-inner .item .img {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px; }
+      .vp-1 .carousel .carousel-inner .item .img img {
+        width: 180px;
+        height: 207px; }
+      .vp-1 .carousel .carousel-inner .item .img p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #2b42a1;
+        margin-top: 10px; }
+    .vp-1 .carousel .carousel-inner .item.active .img:nth-child(2) img {
+      border: 2px solid blue;
+      padding: 5px; }
+    .vp-1 .carousel .carousel-control {
+      top: auto;
+      background: white;
+      color: black;
+      border: 1px solid #a9a1a1;
+      border-radius: 65px;
+      width: 30px;
+      height: 30px;
+      font-size: 18px; }
+      .vp-1 .carousel .carousel-control.right {
+        right: auto;
+        left: 60px;
+        bottom: -20px; }
+      .vp-1 .carousel .carousel-control.left {
+        left: 18px;
+        bottom: -20px; }
+
+@media(max-width:767px){
+    .web-banner{
+        display:none;
+    }
+    .res-banner{
+        display:block !important;
+    }
+    .vp-1 .carousel {
+   width: 100%;}
+   .aj-container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+}
+.vp-2 {
+  min-height: 500px;
+  background-color: #f8f8f8;
+  text-align: center;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center; }
+  .vp-2 .houses {
+    color: #000000;
+    padding: 50px 17% 100px; }
+    .vp-2 .houses h3 {
+      font-size: 38px;
+      font-weight: bold; }
+    .vp-2 .houses p {
+      opacity: 0.5;
+      font-size: 20px; }
+
+.vp-6 {
+  min-height: 800px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px; }
+  .vp-6 .gallery {
+    color: #000000;
+    padding: 50px 17% 100px; }
+    .vp-6 .gallery h3 {
+      font-size: 38px;
+      font-weight: bold; }
+    .vp-6 .gallery p {
+      opacity: 0.5;
+      font-size: 20px; }
+  .vp-6 .gallery-div img {
+    width: 100%; }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -ms-transition-property: opacity;
+  -o-transition-property: opacity; }
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0); }
+
+.outer-row{
+    margin-right:0;
+    margin-bottom:15px;
+}
+.gallery-col{
+     padding-right: 0;
+}
+/*# sourceMappingURL=services.css.map */

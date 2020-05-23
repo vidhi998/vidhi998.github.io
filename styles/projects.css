@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+   margin: auto;
+  max-width:1440px; }
+
+.aj-navbar {
+  height: 100px;
+  background-color: transparent;
+  border-bottom: 0;
+  margin-bottom: 0;
+  z-index: 4; }
+  .aj-navbar .navbar-brand {
+    margin-top: 10px;
+    margin-left: 20% !important; }
+  .aj-navbar .aj-nav li a {
+    background-color: transparent !important;
+    padding-top: 34px;
+    padding-left: 30px; }
+
+.aj-container-fluid {
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.vp-footer {
+  background-color: #f8f8f8;
+  min-height: 400px;
+  padding-top: 120px; }
+  .vp-footer .brand-name {
+    color: #2b42a1;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: bold; }
+  .vp-footer p i.glyphicon {
+    color: #2b42a1;
+    margin-right: 5px; }
+
+.copyright {
+  background: #2b42a1;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold; }
+
+.vp-1 {
+  padding-bottom: 180px; }
+  .vp-1 .carousel-inner {
+    overflow: visible; }
+    .vp-1 .carousel-inner .carousel-caption {
+      background-color: #2b42a1;
+      width: 400px;
+      bottom: -15%;
+      padding: 10px 40px;
+      left: 10%;
+      text-align: left; }
+  .vp-1 .carousel-control {
+    top: auto;
+    background: white;
+    color: black;
+    border: 1px solid #a9a1a1;
+    border-radius: 65px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    bottom: -8%; }
+    .vp-1 .carousel-control.right {
+      right: -50px;
+      right: 2%; }
+    .vp-1 .carousel-control.left {
+      right: 0;
+      top: auto;
+      left: auto;
+      right: 6%; }
+
+.vp-2 {
+  min-height: 800px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px; }
+  .vp-2 .proj {
+    color: #000000;
+    padding: 50px 17% 100px; }
+    .vp-2 .proj h3 {
+      font-size: 38px;
+      font-weight: bold; }
+    .vp-2 .proj p {
+      opacity: 0.5;
+      font-size: 20px; }
+  .vp-2 .projects-list .box {
+    margin: 20px;
+    position: relative; }
+    .vp-2 .projects-list .box .box-text {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
+      color: white;
+      background-color: #00000080;
+      width: 100%;
+      text-align: left;
+      padding-left: 25px; }
+
+/*# sourceMappingURL=projects.css.map */

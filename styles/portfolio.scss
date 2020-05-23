@@ -1,0 +1,183 @@
+@import "base";
+
+.vp-1 {
+    position: relative;
+    min-height: 700px;
+    .vp-1-div {
+        color: #000;
+        width: 45%;
+        h1.title {
+            font-size: 54px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        p.desc {
+            margin-top: 10%;
+            margin-right: 10%;
+            font-size: 20px;
+        }
+    }
+    .img-div {
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: -100;
+        z-index: 1;
+    }
+    .carousel {
+        width: 70%;
+        z-index: 4;
+        margin-left: -20px;
+        .carousel-inner {
+            .item {
+                .img {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 10px;
+                    img {
+                        width: 180px;
+                        height: 207px;
+                    }
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: $blue;
+                        margin-top: 10px;
+                    }
+                }
+                &.active {
+                    .img:nth-child(2) {
+                        img {
+                            border: 2px solid blue;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-control {
+            top: auto;
+            background: white;
+            color: black;
+            border: 1px solid #a9a1a1;
+            border-radius: 65px;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            &.right {
+                right: auto;
+                left: 60px;
+                bottom: -20px;
+            }
+            &.left {
+                left: 18px;
+                bottom: -20px;
+            }
+        }
+    }
+    
+}
+
+.vp-2{
+    min-height: 500px;
+    background-color: $light-blue;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    .houses {
+        color: #000000;
+        padding: 50px 17% 100px;
+        h3 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p {
+            opacity: 0.5;
+            font-size: 20px;
+        }
+    }
+}
+
+.vp-6{
+    min-height: 800px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+    .gallery {
+        color: #000000;
+        padding: 50px 17% 100px;
+        h3 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p {
+            opacity: 0.5;
+            font-size: 20px;
+        }
+    }
+    .gallery-div {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+// .carousel.fade {
+//      opacity: 1;
+// }
+// .carousel.fade .item {
+//     transition: opacity ease-out .7s;
+//     left: 0;
+//     opacity: 0; /* hide all slides */
+//     top: 0;
+//     position: absolute;
+//     width: 100%;
+//     display: block;
+// }
+// .carousel.fade .item:first-child {
+//     top: auto;
+//     opacity: 1; /* show first slide */
+//     position: relative;
+// }
+// .carousel.fade .item.active {
+//     opacity: 1;
+// }
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+            -webkit-transition-property: opacity;  
+            -moz-transition-property:    opacity;
+            -ms-transition-property:     opacity; 
+            -o-transition-property:      opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+        }
+    }
+
+}

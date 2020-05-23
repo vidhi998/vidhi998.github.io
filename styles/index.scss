@@ -1,0 +1,197 @@
+@import "base";
+
+.vp-1 {
+    position: relative;
+    min-height: 700px;
+    .vp-1-div {
+        background-color: $blue;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        bottom: 0;
+        width: 660px;
+        height: 483px;
+        padding: 75px 0 0 120px;
+        color: #ffffff;
+        h1.title {
+            font-size: 54px;
+            font-weight: bold;
+        }
+        p.desc {
+            margin-top: 10%;
+            margin-right: 10%;
+            font-size: 20px;
+        }
+    }
+    .img-div {
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: -100;
+        z-index: 1;
+    }
+}
+
+.vp-2 {
+    min-height: 800px;
+    padding-top: 40px;
+    position: relative;
+    .vp-2-text-div {
+        background-color: $blue;
+        width: 570px;
+        height: 380px;
+        padding: 50px 0 0 50px;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        h2 {
+            font-size: 38px;
+        }
+        p.vp-2-text {
+            width: 473px;
+            height: 224px;
+            font-size: 20px;
+        }
+    }
+}
+
+.vp-3 {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    .vp-3-div-1{
+        color: #000000;
+        h3 {
+            width: 520px;
+            height: 192px;
+            font-size: 54px;
+            font-weight: bold;
+        }
+        p{
+            width: 483px;
+            height: 196px;
+            opacity: 0.6;
+            font-size: 20px;
+            color: #000000;
+        }
+    }
+    .vp-3-div-2{
+        .box {
+            width: 184px;
+            height: 226px;
+            background-color: #f4f6fc;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            padding: 23px;
+            .number {
+                font-size: 86px;
+                font-weight: bold;
+                color: $blue;
+            }
+            .title {
+                color: #919dcf;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.vp-4 {
+    background-color: $blue;
+    text-align: center;
+    min-height: 700px;
+    .we-shape {
+        color: #ffffff;
+        padding: 50px 17% 100px;
+        h3 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p {
+            opacity: 0.6;
+            font-size: 20px;
+        }
+    }
+    .value-div{
+        background-color: #ffffff;
+        padding: 45px 15%;
+        min-height: 350px;
+        h4 {
+            color: $blue;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .imgc {
+            img {
+                width: 70px;
+                border: 14px solid #fff;
+                border-radius: 40px;
+                position: absolute;
+                top: -30px;
+                left: 50%;
+                transform: translate(-50%);
+                background: #fff;
+            }
+        }
+        p {
+            opacity: 0.5;
+            font-family: Apercu;
+            font-size: 20px;
+            color: #000000;
+        }
+    }
+}
+
+.vp-5 {
+    background-color: $light-blue;
+    text-align: center;
+    min-height: 850px;
+    .our-clients {
+        color: #000000;
+        padding: 50px 17% 100px;
+        h3 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p {
+            opacity: 0.5;
+            font-size: 20px;
+        }
+    }
+
+    .client-div {
+        background-color: #ffffff;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+.vp-6{
+    min-height: 800px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+    .gallery {
+        color: #000000;
+        padding: 50px 17% 100px;
+        h3 {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p {
+            opacity: 0.5;
+            font-size: 20px;
+        }
+    }
+    .gallery-div {
+        img {
+            width: 100%;
+        }
+    }
+}
+

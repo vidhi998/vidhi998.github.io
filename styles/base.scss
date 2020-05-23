@@ -1,0 +1,64 @@
+// Colors
+$blue: #2b42a1;
+$light-blue: #f8f8f8;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.aj-navbar {
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 0;
+    margin-bottom: 0;
+    z-index: 4;
+    .navbar-brand {
+        margin-top: 10px;
+        margin-left: 20% !important;
+    }
+
+    .aj-nav {
+        li {
+            a {
+                background-color: transparent !important;
+                    padding-top: 34px;
+    padding-left: 30px;
+            }
+        }
+    }
+}
+
+.aj-container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.vp-footer{
+    background-color: $light-blue;
+    min-height: 400px;
+    padding-top: 120px;
+    .brand-name {
+        color: $blue;
+        font-size: 24px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    p {
+        i.glyphicon {
+            color: $blue;
+            margin-right: 5px;
+        }
+    }
+}
+.copyright {
+    background: $blue;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}

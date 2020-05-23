@@ -104,59 +104,59 @@
             <img class="img-responsive" src="./images/services.jpg" alt="">
     </div>
 <div class="vp-1 aj-container-fluid">
-    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-generic-r" class="carousel slide carousel-fade" data-ride="carousel">
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="img">
-                        <img class="carousel-img" id="boutique" src="./images/boutique-c.png" alt="">
+                        <img class="carousel-img" id="boutique-r" src="./images/boutique-c.png" alt="">
                         <p>BOUTIQUES</p>
                     </div>
                 </div>
                 <div class="item">
                  <div class="img">
-                        <img class="carousel-img" id="houses" src="./images/bh.jpg" alt="">
+                        <img class="carousel-img" id="houses-r" src="./images/bh.jpg" alt="">
                         <p>HOUSES</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img class="carousel-img" id="resi" src="./images/resi.jpg" alt="">
+                        <img class="carousel-img" id="resi-r" src="./images/resi.jpg" alt="">
                         <p>RESIDENTIAL</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img class="carousel-img" id="office" src="./images/office-c.png" alt="">
+                        <img class="carousel-img" id="office-r" src="./images/office-c.png" alt="">
                         <p>OFFICES</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img class="carousel-img" id="furniture" src="./images/furniture-c.png" alt="">
+                        <img class="carousel-img" id="furniture-r" src="./images/furniture-c.png" alt="">
                         <p>FURNITURE</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img class="carousel-img" id="bank" src="./images/bank-c.png" alt="">
+                        <img class="carousel-img" id="bank-r" src="./images/bank-c.png" alt="">
                         <p>BANK</p>
                     </div>
                 </div>
                 </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-example-generic-r" role="button" data-slide="prev">
                 <span > < </span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a class="right carousel-control" href="#carousel-example-generic-r" role="button" data-slide="next">
                 <span > > </span>
                 <span class="sr-only">Next</span>
             </a>
             </div>
-        <div class="container-fluid ">
+        <div class="container-fluid "style="margin-top: 20px;">
             <h1 class="title">We provide more than just quality services</h1>
             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
@@ -502,6 +502,22 @@ $(window).on('load', function () {
         $('.dis-div').html($('.resi-div').html());
         });
     $("#houses").click(function(){
+        $('.banner-image').html('<img src="./images/services.jpg" alt="">')
+        $('.dis-div').html($('.houses-div').html());
+        });
+     $("#boutique-r").click(function(){
+        $('.banner-image').html('<img src="./images/boutique/b-banner.png" alt="">')
+        $('.dis-div').html($('.boutique-div').html());
+        });
+    $("#office-r").click(function(){
+        $('.banner-image').html('<img src="./images/offices/office-banner.png" alt="">')
+        $('.dis-div').html($('.office-div').html());
+        });
+    $("#resi-r").click(function(){
+        $('.banner-image').html('<img src="./images/Residential/r-banner.png" alt="">')
+        $('.dis-div').html($('.resi-div').html());
+        });
+    $("#houses-r").click(function(){
         $('.banner-image').html('<img src="./images/services.jpg" alt="">')
         $('.dis-div').html($('.houses-div').html());
         });

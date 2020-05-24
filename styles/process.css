@@ -85,7 +85,7 @@ body {
      }
 @media(max-width:767px){
     .vp-1 {
-    min-height: 280px;
+    min-height: 240px;
     }
     .vp-1 .vp-1-div {
     width: 100%;

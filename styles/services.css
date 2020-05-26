@@ -138,6 +138,7 @@ body {
     .vp-3 .vp-3-div h1.title {
       font-size: 38px;
       font-weight: bold;
+    width: 90%;
       }
       .vp-3 .vp-3-div p.desc {
       margin-top: 10%;

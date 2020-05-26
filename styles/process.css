@@ -240,6 +240,7 @@ body {
 .vp-4 .vp-4-div h1.title {
       font-size: 24px;
 }
+}
 /*Responsive div CSS*/
 @media(max-width:767px){
     .gallery-div{

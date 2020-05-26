@@ -1,14 +1,16 @@
 body {
   padding: 0;
   max-width:1920px;
-  margin:auto;}
+  margin:auto;
+  font-family: Apercu;}
 
 .aj-navbar {
   height: 100px;
   background-color: transparent;
   border-bottom: 0;
   margin-bottom: 0;
-  z-index: 4; }
+  z-index: 4;
+   border:0;}
   .aj-navbar .navbar-brand {
     margin-top: 10px;
     margin-left: 20% !important; }
@@ -16,6 +18,9 @@ body {
     background-color: transparent !important;
     padding-top: 34px;
     padding-left: 30px; }
+    .aj-navbar .aj-nav .active a{
+        color: #2b42a1;
+    }
 
 @media(max-width:767px){
     .aj-navbar .navbar-brand {
@@ -83,6 +88,15 @@ body {
      height: fit-content;
          width: inherit;
      }
+@media(max-width:910px){
+    .vp-1 .vp-1-div {
+    width: 55%;
+    height: 25%;
+    padding: 5% 8%;}
+    .vp-1 .vp-1-div h1.title {
+      font-size: 38px;
+      }
+}
 @media(max-width:767px){
     .vp-1 {
     min-height: 240px;
@@ -119,7 +133,12 @@ body {
     color:#000000;
     opacity: 0.5;
   }
+@media(max-width:910px){
+     .section-desc{
+    font-size: 14px;
+     padding:20px 15%;}
 
+}
 @media(max-width:767px){
     .vp-2 .section-desc {
     font-size: 14px;
@@ -150,8 +169,9 @@ body {
     padding: 90px 0 0 40px;
     color: #ffffff; }
     .vp-3 .vp-3-div h1.title {
-      font-size: 50px;
-      font-weight: bold; }
+      font-size: 38px;
+      font-weight: bold;
+       padding: 0px 50% 0 0;}
     .vp-3 .vp-3-div p.desc {
       margin-right: 7%;
       margin-top: 5%;
@@ -167,7 +187,13 @@ body {
        height: fit-content;
 
        }
+@media(max-width:910px){
+    .vp-3 .vp-3-div h1.title {
+      font-size: 24px;}
+    .vp-3 .vp-3-div p.desc {
+      font-size: 14px; }
 
+}
 
 
 .vp-4 {
@@ -182,7 +208,7 @@ body {
         width: 40%;
     // width: 600px;
     min-height: 500px;
-    padding: 75px 120 0 0px;
+    padding: 75px 10% 0 0px;
      text-align: right}
     .vp-4 .vp-4-div h1.title {
       font-size: 38px;
@@ -193,6 +219,7 @@ body {
       margin-left: 10%;
       font-size: 20px;
        opacity: 0.6;}
+
   .vp-4 .img-div {
     /* text-align: right;*/
     position: absolute;
@@ -203,6 +230,16 @@ body {
        width:100%;
        height: fit-content;
        }
+
+@media(max-width:910px){
+    .vp-4 .vp-4-div p.desc {
+      margin-top: 10%;
+      margin-left: 10%;
+      font-size: 14px;
+}
+.vp-4 .vp-4-div h1.title {
+      font-size: 24px;
+}
 /*Responsive div CSS*/
 @media(max-width:767px){
     .gallery-div{

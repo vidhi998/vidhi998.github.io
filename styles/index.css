@@ -1,14 +1,16 @@
 body {
   padding: 0;
    margin: auto;
-  max-width:1440px; }
+  max-width:1920px;
+   font-family:Apercu;}
 
 .aj-navbar {
   height: 100px;
   background-color: transparent;
   border-bottom: 0;
   margin-bottom: 0;
-  z-index: 4; }
+  z-index: 4;
+   border: 0;}
   .aj-navbar .navbar-brand {
     margin-top: 10px;
     margin-left: 20% !important; }
@@ -16,6 +18,9 @@ body {
     background-color: transparent !important;
     padding-top: 34px;
     padding-left: 30px; }
+    .aj-navbar .aj-nav .active a{
+        color: #2b42a1;
+    }
 
 .aj-container-fluid {
   padding-left: 8%;
@@ -70,7 +75,7 @@ body {
     //width: 660px;
     width:50%;
     height: 75%;
-    padding: 75px 0 0 120px;
+    padding: 75px 20px 0 120px;
     color: #ffffff; }
     .vp-1 .vp-1-div h1.title {
       font-size: 54px;
@@ -124,17 +129,21 @@ body {
   min-height: 800px;
   padding-top: 40px;
   position: relative; }
+  .vp-2 img{
+    width:64%;
+  }
   .vp-2 .vp-2-text-div {
     background-color: #2b42a1;
-    width: 570px;
-    height: 380px;
+   width: 40%;
+    height: 50%;
     padding: 50px 0 0 50px;
     color: #ffffff;
     position: absolute;
     top: 40%;
     left: 50%; }
     .vp-2 .vp-2-text-div h2 {
-      font-size: 38px; }
+      font-size: 38px;
+       font-weight:bold;}
     .vp-2 .vp-2-text-div p.vp-2-text {
       width: 473px;
       height: 224px;
@@ -147,10 +156,11 @@ body {
   .vp-3 .vp-3-div-1 {
     color: #000000; }
     .vp-3 .vp-3-div-1 h3 {
-      width: 520px;
-      height: 192px;
+          height: 20%;
+          line-height: 1.19;
       font-size: 54px;
-      font-weight: bold; }
+      font-weight: bold;
+       margin-bottom:22px;}
     .vp-3 .vp-3-div-1 p {
       width: 483px;
       height: 196px;
@@ -209,24 +219,26 @@ body {
 .vp-4 {
   background-color: #2b42a1;
   text-align: center;
-  min-height: 700px; }
+  min-height: 750px;}
   .vp-4 .we-shape {
     color: #ffffff;
     padding: 50px 17% 100px; }
     .vp-4 .we-shape h3 {
       font-size: 38px;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 25px;}
     .vp-4 .we-shape p {
       opacity: 0.6;
       font-size: 20px; }
   .vp-4 .value-div {
     background-color: #ffffff;
-    padding: 45px 10%;
-    min-height: 350px; }
+        padding: 65px 10%;
+    height: 72%;; }
     .vp-4 .value-div h4 {
       color: #2b42a1;
       font-size: 22px;
-      font-weight: bold; }
+      font-weight: bold;
+           margin-bottom: 13px;}
     .vp-4 .value-div .imgc img {
       width: 70px;
       border: 14px solid #fff;
@@ -274,7 +286,8 @@ body {
     padding: 50px 17% 100px; }
   .vp-5 .row .we-offer h3 {
       font-size: 38px;
-      font-weight: bold; }
+      font-weight: bold;
+           margin-bottom: 25px;}
   .vp-5 .row .we-offer p {
       opacity: 0.5;
       font-size: 20px; }
@@ -288,6 +301,11 @@ body {
     height: 300px;
     width: 29%;
     padding:0;
+  }
+  .vp-5 .service-block img {
+    height: 75%;
+    width: -webkit-fill-available;
+
   }
   .vp-5 .service-block h3{
     font-size:20px;
@@ -354,6 +372,9 @@ body {
     padding:20px 95px;
     font-weight:bold;
     font-size: 20px;
+  }
+  .vp-56 .vp-56-div a:hover{
+    text-decoration:none;
   }
   .vp-56 .carousel-div{
     padding-top: 100px;
@@ -445,7 +466,8 @@ body {
     text-align: center;}
     .vp-6 .gallery h3 {
       font-size: 38px;
-      font-weight: bold; }
+      font-weight: bold;
+           margin-bottom: 25px;}
     .vp-6 .gallery p {
       opacity: 0.5;
       font-size: 20px; }

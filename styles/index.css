@@ -233,9 +233,9 @@ body {
         height:auto !important;
     }
     .vp-3 .vp-3-div-1 {
-        padding: 10%;}
+        padding: 10% !important;}
     .vp-3 .vp-3-div-2 {
-        padding: 10%;}
+        padding: 10% !important;}
     .vp-3 .vp-3-div-2 .box {
     width: 90px;
     height: 124px;
@@ -389,7 +389,7 @@ body {
     margin-bottom: 40px;
     }
     .vp-5 .we-offer {
-    padding: 10%;
+    padding: 10% !important;
     }
     .vp-5 .row .we-offer h3 {
     font-size: 24px;

@@ -154,9 +154,9 @@ body {
 }
 .vp-3 {
   position: relative;
-  min-height: 825px;
+  min-height: 850px;
   padding-top:80px;
-  padding-bottom:}
+  margin-left: 80px;}
   .vp-3 .vp-3-div {
     margin-top:10%;
     background-color: #2b42a1;

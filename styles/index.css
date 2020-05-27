@@ -141,7 +141,7 @@ body {
   .vp-2 .vp-2-text-div {
     background-color: #2b42a1;
    width: 40%;
-    height: 50%;
+    height: 53%;
     padding: 50px 0 0 50px;
     color: #ffffff;
     position: absolute;
@@ -256,7 +256,7 @@ body {
 .vp-4 {
   background-color: #2b42a1;
   text-align: center;
-  min-height: 750px;}
+  min-height: 800px;}
   .vp-4 .we-shape {
     color: #ffffff;
     padding: 50px 17% 100px; }
@@ -267,10 +267,14 @@ body {
     .vp-4 .we-shape p {
       opacity: 0.6;
       font-size: 20px; }
+     .vp-4 .value-div-div {
+      padding-right: 40px;
+    padding-left: 40px;
+    }
   .vp-4 .value-div {
     background-color: #ffffff;
         padding: 65px 10%;
-        height: 380px; }
+        height: 410px; }
     .vp-4 .value-div h4 {
       color: #2b42a1;
       font-size: 22px;
@@ -344,7 +348,7 @@ body {
   .vp-5 .service-block{
     border: solid 1px #e0dcdc;
     margin:0 40px 40px 0;
-    height: 300px;
+    height: 280px;
     width: 30%;
     padding:0;
   }
@@ -442,7 +446,7 @@ body {
       padding: 10px;
     position: relative;}
       .vp-56 .carousel-div .carousel .carousel-inner .item .img img {
-        width: 360px;
+        width: 100%;
         height: 540px; }
         .vp-56 .carousel-div .carousel .carousel-inner .item .img .row{
             width: 94%;

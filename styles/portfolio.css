@@ -99,8 +99,8 @@ body {
       margin: 10px;
       padding: 10px; }
       .vp-1 .carousel .carousel-inner .item .img img {
-        width: 180px;
-        height: 207px; }
+        width: 95%;
+        height: 32%; }
       .vp-1 .carousel .carousel-inner .item .img p {
         font-size: 20px;
         font-weight: 500;
@@ -244,7 +244,7 @@ body {
         margin-bottom:15px;
     }
 }
-/*
+
 .carousel-fade .carousel-inner .item {
   transition-property: opacity;
   -webkit-transition-property: opacity;
@@ -269,7 +269,7 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0); }
-*/
+
 .outer-row{
     margin-right:0;
     margin-bottom:15px;

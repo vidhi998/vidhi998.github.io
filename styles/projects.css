@@ -1,14 +1,16 @@
 body {
   padding: 0;
    margin: auto;
-  max-width:1920px; }
+  max-width:1920px;
+   font-family:Apercu; }
 
 .aj-navbar {
   height: 100px;
   background-color: transparent;
   border-bottom: 0;
   margin-bottom: 0;
-  z-index: 4; }
+  z-index: 4;
+   border: 0; }
   .aj-navbar .navbar-brand {
     margin-top: 10px;
     margin-left: 20% !important; }
@@ -67,6 +69,9 @@ body {
   padding-bottom: 180px; }
   .vp-1 .carousel-inner {
     overflow: visible; }
+    .vp-1 .carousel-inner .item img{
+        width:100%;
+    }
     .vp-1 .carousel-inner .carousel-caption {
       background-color: #2b42a1;
       width: 400px;
@@ -139,6 +144,9 @@ body {
   .vp-2 .projects-list .box {
     margin: 20px;
     position: relative; }
+  .vp-2 .projects-list .box img {
+    width:100%;
+    }
     .vp-2 .projects-list .box .box-text {
       position: absolute;
       bottom: 0;

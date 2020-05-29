@@ -21,6 +21,9 @@ body {
     .aj-navbar .aj-nav .active a{
         color: #2b42a1;
     }
+.aj-container-fluid {
+  padding-left: 10%;
+  padding-right: 10%; }
 
 @media(max-width:767px){
     .aj-navbar .navbar-brand {
@@ -69,9 +72,9 @@ body {
     z-index: 2;
     left: 0;
     bottom: 0;
-    width: 586px;
+    width: 610px;
     height: 270px;
-    padding: 75px 80px 0 80px;
+    padding: 75px 80px 0 120px;
     color: #ffffff; }
     .vp-1 .vp-1-div h1.title {
       font-size: 54px;
@@ -160,7 +163,7 @@ body {
   position: relative;
   min-height: 850px;
   padding-top:80px;
-  margin-left: 80px;}
+  margin-left: 120px;}
   .vp-3 .vp-3-div {
     margin-top:10%;
     background-color: #2b42a1;
@@ -168,8 +171,7 @@ body {
     z-index: 2;
     left: 0;
     width: 50%;
-   // width: 660px;
-    height: 530px;
+    height: 540px;
     padding: 90px 0 0 40px;
     color: #ffffff; }
     .vp-3 .vp-3-div h1.title {

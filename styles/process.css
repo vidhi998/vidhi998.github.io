@@ -5,19 +5,20 @@ body {
   font-family: Apercu;}
 
 .aj-navbar {
-  height: 100px;
+  height: 60px;
   background-color: #ffffff;
     border: 0;
     margin-bottom: 0;
     z-index: 4;
     position: fixed;
-    width: 100%;}
+    width: 100%;
+    border-radius: 0;}
   .aj-navbar .navbar-brand {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 20% !important; }
   .aj-navbar .aj-nav li a {
     background-color: transparent !important;
-    padding-top: 34px;
+    padding-top: 25px;
     padding-left: 30px; }
     .aj-navbar .aj-nav .active a{
         color: #2b42a1;
@@ -65,8 +66,10 @@ body {
 
 
 .vp-1 {
-  position: relative;
-  min-height: 767px; }
+    position: relative;
+    min-height: 867px;
+    top: 60px;
+    margin-bottom: 60px; }
   .vp-1 .vp-1-div {
     position: absolute;
     background-color: #2b42a1;
@@ -84,7 +87,7 @@ body {
   .vp-1 .img-div {
     /* text-align: right;*/
     position: absolute;
-    top: -100;
+    top: 0;
     right:0;
     z-index: 1;
      width:100%;}

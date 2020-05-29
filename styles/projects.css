@@ -5,20 +5,24 @@ body {
    font-family:Apercu; }
 
 .aj-navbar {
-  height: 100px;
+  height: 60px;
   background-color: #ffffff;
     border: 0;
     margin-bottom: 0;
     z-index: 4;
     position: fixed;
-    width: 100%; }
+    width: 100%;
+    border-radius: 0;}
   .aj-navbar .navbar-brand {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 20% !important; }
   .aj-navbar .aj-nav li a {
     background-color: transparent !important;
-    padding-top: 34px;
+    padding-top: 25px;
     padding-left: 30px; }
+    .aj-navbar .aj-nav .active a{
+        color: #2b42a1;
+    }
 @media(max-width:767px){
     .aj-navbar .navbar-brand {
       margin-top: 8px;
@@ -67,7 +71,11 @@ body {
    text-align:center;}
 
 .vp-1 {
-  padding-bottom: 180px; }
+    padding-bottom: 180px;
+    position: relative;
+    top: 60px;
+    margin-bottom: 60px;
+    }
   .vp-1 .carousel-inner {
     overflow: visible; }
     .vp-1 .carousel-inner .item img{

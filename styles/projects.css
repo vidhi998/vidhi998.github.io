@@ -101,7 +101,7 @@ body {
 @media(max-width:767px){
     .vp-1 {
         padding-bottom: 50px;
-        min-height: 440px;
+        min-height: 420px;
     }
     .vp-1 .carousel-inner .carousel-caption {
         background-color: #2b42a1;

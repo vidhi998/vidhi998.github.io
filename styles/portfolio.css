@@ -148,19 +148,21 @@ body {
     }
     .vp-1 .carousel {
       width: 100%;
-      margin-left: 0px;}
+      margin-left: 0px;
+      padding:10%;
+    }
    .aj-container-fluid {
       padding-left: 0;
       padding-right: 0;
    }
 
    .vp-1 .carousel .carousel-control.right {
-        right: auto;
-        left: 55%;
-        bottom: -20px; }
+        right: 40%;
+        left: auto;
+        bottom: 0; }
    .vp-1 .carousel .carousel-control.left {
         left: 40%;
-        bottom: -20px; }
+        bottom: 0px; }
    .banner-text .title{
     font-size: 24px;
     font-weight: bold;
@@ -171,10 +173,15 @@ body {
     text-align: center;
    }
    .vp-1 {
-  min-height: 400px; }
+  min-height: 450px; }
   .carousel-inner {
     text-align: center;
 }
+    .vp-1 .carousel .carousel-inner .item .img img {
+    width: 107px;
+    height: 125px;
+    }
+
 }
 
 

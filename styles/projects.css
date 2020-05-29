@@ -16,11 +16,29 @@ body {
     background-color: transparent !important;
     padding-top: 34px;
     padding-left: 30px; }
+@media(max-width:767px){
+    .aj-navbar .navbar-brand {
+      margin-top: 8px;
+    margin-left: 15px !important;
+    padding:0 !important;
+    }
+    .aj-navbar {
+  height: auto;
+  }
+  .navbar-toggle{
+        padding: 12px 10px !important;
+  }
+}
 
 .aj-container-fluid {
   padding-left: 10%;
   padding-right: 10%; }
-
+@media(max-width:767px){
+   .aj-container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+   }
+   }
 .vp-footer {
   background-color: #f8f8f8;
   min-height: 400px;
@@ -42,7 +60,8 @@ body {
   justify-content: center;
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+   text-align:center;}
 
 .vp-1 {
   padding-bottom: 180px; }
@@ -73,7 +92,36 @@ body {
       top: auto;
       left: auto;
       right: 6%; }
+@media(max-width:767px){
+    .vp-1 {
+        padding-bottom: 50px;
+        min-height: 430px;
+    }
+    .vp-1 .carousel-inner .carousel-caption {
+        background-color: #2b42a1;
+        width: 100%;
+        bottom: -125%;
+        padding: 10%;
+        left: 0;
+        text-align: center;
+    }
+    .vp-1 .carousel-inner .carousel-caption h2{
+        font-size:24px;
+    }
+    .vp-1 .carousel-inner .carousel-caption p{
+        font-size:14px;
+    }
 
+    .vp-1 .carousel-control.left {
+        right: 0;
+        top: auto;
+        left: auto;
+        right: 20%;
+    }
+    .vp-1 .carousel-control.right {
+        right: 10%;
+    }
+}
 .vp-2 {
   min-height: 800px;
   background-color: #ffffff;
@@ -101,5 +149,27 @@ body {
       width: 100%;
       text-align: left;
       padding-left: 25px; }
+@media(max-width:767px){
+    .vp-2 .projects-list .box {
+        margin-bottom: 20px !important;
+        margin: 0;
+    }
+  .vp-2 .proj {
+    color: #000000;
+    padding: 10%;
+    }
+  .vp-2 .proj h3 {
+    font-size: 24px;
+  }
+  .vp-2 .proj p {
+    font-size: 14px;
+  }
+  .outer-row{
+    margin:0;
+  }
+  .outer-col{
+    padding:0;
+  }
+}
 
 /*# sourceMappingURL=projects.css.map */

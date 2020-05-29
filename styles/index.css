@@ -6,11 +6,12 @@ body {
 
 .aj-navbar {
   height: 100px;
-  background-color: transparent;
-  border-bottom: 0;
-  margin-bottom: 0;
-  z-index: 4;
-   border: 0;}
+  background-color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+    z-index: 4;
+    position: fixed;
+    width: 100%;}
   .aj-navbar .navbar-brand {
     margin-top: 10px;
     margin-left: 20% !important; }

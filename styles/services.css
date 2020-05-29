@@ -6,10 +6,12 @@ body {
 
 .aj-navbar {
   height: 100px;
-  background-color: transparent;
-  border: 0;
-  margin-bottom: 0;
-  z-index: 4; }
+  background-color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+    z-index: 4;
+    position: fixed;
+    width: 100%; }
   .aj-navbar .navbar-brand {
     margin-top: 10px;
     margin-left: 20% !important; }
@@ -104,7 +106,7 @@ body {
       }
     .vp-1 {
   position: relative;
-  min-height: 440px; }
+  min-height: 430px; }
   .vp-1 .vp-1-div {
     width: auto;
     height:auto;

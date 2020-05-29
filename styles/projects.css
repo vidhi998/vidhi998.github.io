@@ -95,12 +95,12 @@ body {
 @media(max-width:767px){
     .vp-1 {
         padding-bottom: 50px;
-        min-height: 430px;
+        min-height: 440px;
     }
     .vp-1 .carousel-inner .carousel-caption {
         background-color: #2b42a1;
         width: 100%;
-        bottom: -125%;
+        bottom: -105%;
         padding: 10%;
         left: 0;
         text-align: center;

@@ -139,6 +139,9 @@ body {
         width: 100%;
 
     }
+    .vp-1 .vp-1-div h1.title {
+    font-size: 42px;
+    }
     .vp-1 .carousel .carousel-inner .item .img {
       display: inline-block;
       margin: 5px;

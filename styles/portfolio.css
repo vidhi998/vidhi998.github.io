@@ -1,9 +1,12 @@
+@font-face{
+    font-family:myapercu;
+    src: url('./fonts/Apercu_Regular.otf');
+}
 body {
   padding: 0;
-  margin: auto;
+   margin: auto;
   max-width:1920px;
-  font-family: Apercu;
-   }
+   font-family:myapercu;}
 
 .aj-navbar {
   height: 60px;

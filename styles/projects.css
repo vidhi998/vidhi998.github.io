@@ -84,6 +84,7 @@ body {
     overflow: visible; }
     .vp-1 .carousel-inner .item img{
         width:100%;
+        height: 593px;
     }
     .vp-1 .carousel-inner .carousel-caption {
       background-color: #2b42a1;
@@ -115,6 +116,10 @@ body {
         padding-bottom: 50px;
         min-height: 420px;
     }
+    .vp-1 .carousel-inner .item img{
+      width:100%;
+      height: 220px;
+  }
     .vp-1 .carousel-inner .carousel-caption {
         background-color: #2b42a1;
         width: 100%;
@@ -169,7 +174,8 @@ body {
       background-color: #00000080;
       width: 100%;
       text-align: left;
-      padding-left: 25px; }
+      padding-left: 25px;
+      padding-top: 10px; }
 @media(max-width:767px){
     .vp-2 .projects-list .box {
         margin-bottom: 20px !important;
